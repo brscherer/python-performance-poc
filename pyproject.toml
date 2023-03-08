@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "python-performance-poc"
+version = "0.1.0"
+description = ""
+authors = ["Bruno Scherer <brscherer@lendingclub.com>"]
+readme = "README.md"
+packages = [{include = "python_performance_poc"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
